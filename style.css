@@ -46,3 +46,14 @@ body{
     text-decoration: none;
     color: black;
 }
+/*div bar*/
+#about,#services,#projects,#certificates,#edu,#contacts{
+    width: 70px;
+    height: 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: black;
+}
+#homeSection>div>dl>dt{
+    display: flex;
+    margin: 5px;
+}
