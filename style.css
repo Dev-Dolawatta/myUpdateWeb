@@ -159,8 +159,19 @@ body{
 .sub_container>div>img{
     padding: 0 15px;
 }
-
-
+/*-------------------------------projects sec--------------------------------------*/
+.image_container{
+    padding: 25px;
+}
+.icon_container{
+    padding: 40px;
+}
+#project1{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: black 3px 3px 5px 0;
+}
 
 
 
