@@ -45,6 +45,8 @@ body{
 #homeSection>div>dl>dt>a{
     text-decoration: none;
     color: black;
+    position: relative;
+    top: -6px;
 }
 /*div bar*/
 #about,#services,#projects,#certificates,#edu,#contacts{
@@ -53,8 +55,10 @@ body{
     border-radius: 5px 5px 5px 5px;
     background-color: black;
 }
+/*social links and bars*/
 #homeSection>div>dl>dt{
     display: flex;
+    gap: 15px;
     margin: 5px;
 }
 .social_links>div{
@@ -65,4 +69,32 @@ body{
 .social_links{
     display: flex;
     gap: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+}
+#barOne,#barTwo,#barThree,#barFour,#barFive,#barSix{
+    margin: 4px;
+
+}
+/*positioning nav tags*/
+#barSix{
+    position: relative;
+    top:75px;
+}
+#barFive{
+    position: relative;
+    top: 60px;
+}
+#barFour{
+    position: relative;
+    top: 45px;
+}
+#barThree{
+    position: relative;
+    top: 30px;
+}
+#barTwo{
+    position: relative;
+    top: 15px;
 }
