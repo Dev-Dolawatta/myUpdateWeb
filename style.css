@@ -114,7 +114,6 @@ body{
     aspect-ratio: 1/1;
     box-shadow: black 3px 3px 5px 0;
     position: relative;
-
 }
 .aboutSec>div>div>div>img{
     position: absolute;
@@ -124,5 +123,10 @@ body{
     bottom: 0;
     margin: auto;
     border-radius: 20px 20px 20px 20px;
+}
+/*my para*/
+.myDescription_container>p{
+    text-align: left;
+    font-size: 17px;
 }
 
