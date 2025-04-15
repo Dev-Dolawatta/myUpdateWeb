@@ -41,3 +41,8 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+/*nav tags*/
+#homeSection>div>dl>dt>a{
+    text-decoration: none;
+    color: black;
+}
