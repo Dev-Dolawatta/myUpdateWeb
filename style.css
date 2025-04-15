@@ -1,0 +1,24 @@
+body{
+    background-color: silver;
+    position: relative;
+}
+#homeSection {
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    background-color: #B3C8CF     ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 2px solid cyan;
+}
+.main_container{
+    padding: 20px;
+}
+.right{
+    margin-left: 40vw;
+    width: 60%;
+    height: 100%;
+    background-color: #89A8B2  ;
+    box-sizing: border-box;
+}
