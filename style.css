@@ -33,6 +33,11 @@ body{
 }
 /*fancy para*/
 #homeSection>div>:nth-child(2){
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bolder;
+}
+/*about para*/
+#fancyPara{
+    font-size: 20px;
+    font-weight: bold;
 }
