@@ -129,4 +129,25 @@ body{
     text-align: left;
     font-size: 17px;
 }
+/*-----------------------------services sec--------------------------------------*/
+.sub_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
