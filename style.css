@@ -133,10 +133,25 @@ body{
 .sub_container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding: 2px;
 }
-
-
-
+/*catching each services div*/
+#one{
+    box-shadow: black 2px 2px 4px 0 ;
+    position: relative;
+}
+#two{
+    box-shadow: black 2px 2px 4px 0 ;
+    margin: 2px;
+}
+#three{
+    box-shadow: black 2px 2px 4px 0 ;
+    margin: 2px;
+}
+/*catching p in first services card*/
+.sub_container>div>p{
+    text-align: center;
+}
 
 
 
