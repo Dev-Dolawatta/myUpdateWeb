@@ -172,6 +172,10 @@ body{
     position: relative;
     box-shadow: black 3px 3px 5px 0;
 }
+/*project1 img*/
+#project1>div>img{
+    border-radius: 20px;
+}
 
 
 
