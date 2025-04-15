@@ -152,8 +152,13 @@ body{
 .sub_container>div>p{
     text-align: center;
 }
-
-
+/*services card titles*/
+.sub_container>div>h2{
+    padding: 0 10px;
+}
+.sub_container>div>img{
+    padding: 0 10px;
+}
 
 
 
