@@ -176,7 +176,16 @@ body{
 #project1>div>img{
     border-radius: 20px;
 }
-
+#project1>h2{
+    padding: 0 100px;
+    position: absolute;
+    top: 315px;
+}
+#project1>p{
+    padding: 0 50px;
+    position: absolute;
+    top: 350px;
+}
 
 
 
