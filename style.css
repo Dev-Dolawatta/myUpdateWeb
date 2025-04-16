@@ -17,6 +17,7 @@ html,body {
     padding: 20px;
     height: 100%;
 
+
 }
 .right{
     margin-left: 40%;
@@ -143,6 +144,13 @@ html,body {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 2px;
+    animation-name: popUp;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+
 }
 /*catching each services div*/
 #one {
@@ -492,6 +500,12 @@ html,body {
     color: #ff007f;
     text-decoration: underline;
 }
+.social_links>div:hover{
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 2px 3px 0 #ff007f;
+
+}
 
 
 /*---------------------------------------animation----------------------------------------------*/
@@ -510,5 +524,17 @@ html,body {
         background-clip: text;
     }
 }
+@keyframes popUp{
+    0% {
+        opacity: 0.5;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 
