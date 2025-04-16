@@ -433,3 +433,23 @@ html,body {
     bottom: 60px;
     right:60px;
 }
+/*development txt*/
+.col1>h3{
+    position: absolute;
+    left: 20px;
+}
+.col1>div>h4{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#cicle6>h4{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.tools{
+    width: 300px;
+    left: 200px;
+    border: black 2px solid;
+}
