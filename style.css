@@ -382,3 +382,13 @@ html,body {
     border-radius: 3px ;
     background: black;
 }
+/*skills*/
+#skillsSec{
+    height: 100vh;
+}
+.skillsGrid{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: black 2px solid;
+}
