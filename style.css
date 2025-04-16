@@ -230,7 +230,7 @@ html,body {
     height: 80vh;
     width: 30px;
     top: 20px;
-    border: white 2px solid;
+    /*border: white 2px solid;*/
 }
 /*bar*/
 #bar{
@@ -243,6 +243,8 @@ html,body {
 #circle1{
     position: absolute;
     width: 20px;
+    top: 30px;
+    left: -7px;
     aspect-ratio: 1/1;
     border-radius: 100%;
     background: black;
@@ -250,6 +252,8 @@ html,body {
 #circle2{
     position: absolute;
     width: 20px;
+    top: 400px;
+    left:-7px;
     aspect-ratio: 1/1;
     border-radius: 100%;
     background: black;
