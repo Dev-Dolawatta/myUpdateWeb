@@ -225,6 +225,11 @@ html,body {
     height: 90vh;
     position: relative;
 }
+#setOne{
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
 #set2One{
     position: absolute;
     height: 80vh;
@@ -258,7 +263,16 @@ html,body {
     border-radius: 100%;
     background: black;
 }
-
+/*ijse div*/
+#setOne>div{
+    width: 250px;
+    height:150px;
+    border: black 2px solid;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    padding: 0 5px;
+}
 
 
 
