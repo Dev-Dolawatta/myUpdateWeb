@@ -347,6 +347,11 @@ html,body {
     bottom: 30px;
     left: 20px;
 }
+#col2 form textarea{
+    position: absolute;
+    bottom: 65px ;
+    left: 20px;
+}
 
 
 
