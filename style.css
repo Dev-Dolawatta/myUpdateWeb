@@ -223,11 +223,14 @@ html,body {
 /*col2*/
 #eduCol2{
     height: 90vh;
-
+    position: relative;
 }
 #set2One{
-    position: relative;
+    position: absolute;
     height: 80vh;
+    width: 30px;
+    top: 20px;
+    border: white 2px solid;
 }
 /*bar*/
 #bar{
