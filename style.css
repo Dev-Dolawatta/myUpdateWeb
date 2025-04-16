@@ -487,6 +487,13 @@ html,body {
     top: 50px;
     left: 20px;
 }
+/*---------------------------------------transitions-----------------------------------------------*/
+#barOne:hover a,#barTwo:hover a,#barThree:hover a,#barFour:hover a,#barFive:hover a,#barSix:hover a {
+    color: #ff007f;
+    text-decoration: underline;
+}
+
+
 /*---------------------------------------animation----------------------------------------------*/
 
 @keyframes myName{
