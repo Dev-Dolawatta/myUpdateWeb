@@ -16,6 +16,7 @@ html,body {
 .main_container{
     padding: 20px;
     height: 100%;
+
 }
 .right{
     margin-left: 40%;
@@ -370,6 +371,12 @@ html,body {
     position: absolute;
     bottom: 350px;
     left: 20px;
+}
+/*-----------------------------------------footer-------------------------------------------*/
+#footerDiv{
+    height: 3px;
+    border-radius: 3px ;
+    background: black;
 }
 
 
