@@ -205,17 +205,24 @@ html,body {
 .eduGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: white 1px solid;
+    border: black 2px solid;
+    box-sizing: border-box;
 }
 /*col1*/
 #eduCol1{
     height: 90vh;
     position: relative;
+    border: white 1px solid;
+    border-right: none;
+    box-sizing: border-box;
 }
 /*col2*/
 #eduCol2{
     height: 90vh;
     position: relative;
+    border: white 1px solid;
+    border-left: none;
+    box-sizing: border-box;
 }
 #setOne{
     width: 300px;
@@ -382,7 +389,7 @@ html,body {
     border-radius: 3px ;
     background: black;
 }
-/*skills*/
+/*-----------------------------------------skills-----------------------------------------------*/
 #skillsSec{
     height: 100vh;
 }
@@ -391,13 +398,18 @@ html,body {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     border: black 2px solid;
+    box-sizing: border-box;
 }
 /*col1*/
 .col1{
     position: relative;
+    border: white 2px solid;
+    box-sizing: border-box;
 }
 .col2{
     position: relative;
+    border: white 2px solid;
+    box-sizing: border-box;
 }
 .col1>div{
     width: 80px;
@@ -439,7 +451,8 @@ html,body {
 /*development txt*/
 .col1>h3{
     position: absolute;
-    left: 20px;
+    top: 10px;
+    left: 40px;
 }
 .col1>div>h4{
     position: absolute;
