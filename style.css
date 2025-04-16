@@ -396,6 +396,9 @@ html,body {
 .col1{
     position: relative;
 }
+.col2{
+    position: relative;
+}
 .col1>div{
     width: 80px;
     aspect-ratio: 1/1;
@@ -450,6 +453,14 @@ html,body {
 }
 .tools{
     width: 300px;
-    left: 200px;
+    height: 225px;
     border: black 2px solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 5px;
 }
+
