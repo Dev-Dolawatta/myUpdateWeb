@@ -284,6 +284,20 @@ html,body {
     position: absolute;
 
 }
+#set2Three{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+#set2Three>div{
+    position: absolute;
+    width:250px;
+    height: 150px;
+    border: black 2px solid;
+    top: 260px;
+    left: 50px;
+    padding: 0 5px;
+}
 
 
 
