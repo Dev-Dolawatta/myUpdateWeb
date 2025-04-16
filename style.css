@@ -310,11 +310,13 @@ html,body {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     border: black 2px solid;
+    box-sizing: border-box;
 }
 /*col1*/
 #col1{
     height:90vh;
     border: white 2px solid;
+    box-sizing: border-box;
     position: relative;
 }
 /*info div*/
@@ -322,6 +324,7 @@ html,body {
     width: 300px;
     height: 200px;
     border: black 2px solid;
+    box-sizing: border-box;
     padding: 0 5px;
     position: absolute;
     top: 0;
@@ -339,6 +342,7 @@ html,body {
 /*col2*/
 #col2{
     border: white 2px solid;
+    box-sizing: border-box;
     position: relative;
 }
 /*submit btn*/
@@ -378,6 +382,3 @@ html,body {
     border-radius: 3px ;
     background: black;
 }
-
-
-
