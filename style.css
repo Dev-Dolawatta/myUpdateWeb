@@ -16,8 +16,6 @@ html,body {
 .main_container{
     padding: 20px;
     height: 100%;
-
-
 }
 .right{
     margin-left: 40%;
@@ -146,7 +144,7 @@ html,body {
     padding: 2px;
     animation-name: popUp;
     animation-timing-function: ease-out;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
@@ -221,6 +219,11 @@ html,body {
     grid-template-columns: repeat(2, 1fr);
     border: black 2px solid;
     box-sizing: border-box;
+    animation-name: popUp;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 /*col1*/
 #eduCol1{
@@ -413,6 +416,11 @@ html,body {
     grid-template-columns: repeat(2,1fr);
     border: black 2px solid;
     box-sizing: border-box;
+    animation-name: popUp;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 /*col1*/
 .col1{
