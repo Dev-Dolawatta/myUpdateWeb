@@ -308,6 +308,12 @@ html,body {
 .contactsGrid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    border: black 2px solid;
+}
+/*col1*/
+#col1{
+    height:90vh;
+    border: white 2px solid;
 }
 
 
