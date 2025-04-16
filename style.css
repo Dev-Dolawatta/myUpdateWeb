@@ -219,6 +219,7 @@ html,body {
 /*col1*/
 #eduCol1{
     height: 90vh;
+    position: relative;
 }
 /*col2*/
 #eduCol2{
@@ -273,6 +274,12 @@ html,body {
     left: 30px;
     padding: 0 5px;
 }
+#setTwo{
+    position: absolute;
+    top:400px;
+    left: 80px;
+}
+
 
 
 
