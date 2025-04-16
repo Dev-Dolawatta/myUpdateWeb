@@ -248,21 +248,21 @@ html,body {
 }
 #circle1{
     position: absolute;
-    width: 20px;
+    width: 30px;
     top: 30px;
-    left: -7px;
+    left: -10px;
     aspect-ratio: 1/1;
     border-radius: 100%;
-    background: black;
+    background: white;
 }
 #circle2{
     position: absolute;
-    width: 20px;
+    width: 30px;
     top: 400px;
-    left:-7px;
+    left:-10px;
     aspect-ratio: 1/1;
     border-radius: 100%;
-    background: black;
+    background: white;
 }
 /*ijse div*/
 #setOne>div{
@@ -279,7 +279,11 @@ html,body {
     top:400px;
     left: 80px;
 }
+#set2One>div:nth-child(2)>i{
+    z-index: 1;
+    position: absolute;
 
+}
 
 
 
