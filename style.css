@@ -392,3 +392,44 @@ html,body {
     grid-template-columns: repeat(2,1fr);
     border: black 2px solid;
 }
+/*col1*/
+.col1{
+    position: relative;
+}
+.col1>div{
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background: transparent;
+    border: white 1px solid;
+}
+#cicle1{
+    position: absolute;
+    left: 60px;
+    top: 80px;
+}
+#cicle2{
+    position: absolute;
+    right:60px;
+    top: 80px;
+}
+#cicle3{
+    position: absolute;
+    left: 60px;
+    bottom: 210px;
+}
+#cicle4{
+    position: absolute;
+    bottom: 210px;
+    right: 60px;
+}
+#cicle5{
+    position: absolute;
+    bottom:60px;
+    left:60px;
+}
+#cicle6{
+    position: absolute;
+    bottom: 60px;
+    right:60px;
+}
