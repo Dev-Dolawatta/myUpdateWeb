@@ -365,7 +365,12 @@ html,body {
     bottom: 310px;
     left: 20px;
 }
-
+/*name*/
+#col2 form input:first-child{
+    position: absolute;
+    bottom: 350px;
+    left: 20px;
+}
 
 
 
