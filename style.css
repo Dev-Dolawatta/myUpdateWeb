@@ -207,15 +207,6 @@ html,body {
     grid-template-columns: repeat(2, 1fr);
     border: black 2px solid;
 }
-
-/*------------------------------------contacts-------------------------------------*/
-.contactsSec{
-    height: 100vh;
-}
-.contactsGrid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 /*col1*/
 #eduCol1{
     height: 90vh;
@@ -258,7 +249,7 @@ html,body {
 #circle2{
     position: absolute;
     width: 30px;
-    top: 400px;
+    top: 380px;
     left:-10px;
     aspect-ratio: 1/1;
     border-radius: 100%;
@@ -276,13 +267,19 @@ html,body {
 }
 #setTwo{
     position: absolute;
-    top:400px;
-    left: 80px;
+    top:380px;
+    right: 40px;
 }
 #set2One>div:nth-child(2)>i{
     z-index: 1;
     position: absolute;
-
+    top: 5px;
+    left: 5px;
+}
+#set2One>div:nth-child(3)>i{
+    position: absolute;
+    top: 6px;
+    left: 6px;
 }
 #set2Three{
     position: absolute;
@@ -305,6 +302,15 @@ html,body {
     top: 30px;
     left: 40px;
 }
+/*------------------------------------contacts-------------------------------------*/
+.contactsSec{
+    height: 100vh;
+}
+.contactsGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 
 
 
