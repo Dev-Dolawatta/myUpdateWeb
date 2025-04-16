@@ -335,7 +335,18 @@ html,body {
    top: 60px;
    left: 25px;
 }
-
+/*col2*/
+#col2{
+    border: white 2px solid;
+    position: relative;
+}
+/*submit btn*/
+#col2 form input[type="submit"]{
+    position: absolute;
+    display: block;
+    bottom: 30px;
+    left: 20px;
+}
 
 
 
